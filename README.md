@@ -10,7 +10,7 @@ the work of the javascript code will be to :
 
 1. getMovies() — A function to fetch movies from API and returns the results using fetch function.The results will be passed to showMovies() function.
 
-2. showMovies() — A function to showcase the results in the browser which basically inserts the HTML code dynamically.The data to this function is passed from the getMovies() function.
+2. displayMovies() — A function to showcase the results in the browser which basically inserts the HTML code dynamically.The data to this function is passed from the getMovies() function.
 
 3. getClassByRate() — A function which returns the color based on movie rating obtained from API. This color is used in CSS to choose the color of the movie rating text.
 
