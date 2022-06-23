@@ -52,7 +52,7 @@ form.addEventListener('submit', (e) =>{
     e.preventDefault()
     searchValue = search.value
     if(searchValue && searchValue !== ''){
-        getMovies(SEARCHURL+searchValue)
+        getMovies(SEARCHURL+'&query=' + searchValue)
         searchValue = ''
     }
     else{
